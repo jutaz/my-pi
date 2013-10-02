@@ -1,0 +1,16 @@
+{
+  "name": "my-pi",
+  "version": "0.0.1",
+  "description": "ERROR: No README.md file found!",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jutaz/my-pi.git"
+  },
+  "author": "Justas Brazauskas",
+  "license": "BSD",
+  "gitHead": "c33c6799a0e4718b198680d34ab53b8bdbd62775"
+}
