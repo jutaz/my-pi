@@ -12,5 +12,8 @@
   },
   "author": "Justas Brazauskas",
   "license": "BSD",
-  "gitHead": "c33c6799a0e4718b198680d34ab53b8bdbd62775"
+  "gitHead": "c33c6799a0e4718b198680d34ab53b8bdbd62775",
+  "dependencies": {
+    "hype": "0.0.2"
+  }
 }
