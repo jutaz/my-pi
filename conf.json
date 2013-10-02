@@ -1,0 +1,39 @@
+{
+	"common": {
+		"db": {
+			"host": "",
+			"port": 27017,
+			"username": "",
+			"password": "",
+			"database":  {
+				"general": ""
+			}
+		},
+		"cookie": {
+			"secret": "",
+			"key": "session"
+		},
+		"ports": {
+			"web": 80
+		},
+		"environment": "",
+		"launch_options": {
+			"workers": 0
+		}
+	},
+	"development": {
+		"environment": "development",
+		"launch_options": {
+			"workers": 2
+		}
+	},
+	"test": {
+		"environment": "test"
+	},
+	"production":  {
+		"environment": "production",
+		"launch_options": {
+			"workers": 2
+		}
+	}
+}
