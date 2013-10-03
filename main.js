@@ -1,7 +1,8 @@
-var system = require('hype');
+var hype = require('hype');
+var system = require('./lib/system');
 var routes = require('./routes/main');
 
-app = system.init({
+app = hype.init({
 	default_routes: true,
 	native_middleware: true,
 	sessions: true,
@@ -23,8 +24,10 @@ app.set('title', 'Hype');
 //Define your routes here.
 app.get('/', routes.index);
 
-system.listen(app, {
+hype.listen(app, {
 	io: false,
 	https: false,
 	http: true
 });
+
+system();
